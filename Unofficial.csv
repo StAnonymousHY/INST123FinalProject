@@ -1,0 +1,76 @@
+﻿id,resource_name,"resource_type (Eg. student notes, YouTube)",subject (Eg. INST),course_code (Eg. 123),resource_link
+1,Index of /~drew/phy260/spr05,website,PHYS,260,Index of /~drew/phy260/spr05
+2,Integral Calculator • With Steps!,website,MATH,141,https://www.integral-calculator.com/
+3,Computer Architecture: A Quantitative Approach,book,ENEE,446,ISBN: 9780128119051
+4,Data structures and algorithms in Java,book,CMSC,132,ISBN: 9781118771334
+5,Data structures and abstractions with Java,book,CMSC,132,ISBN: 9780133744057
+6,Data structures : abstraction and design using Java,book,CMSC,132,ISBN: 9780470128701
+7,The C Programming Language,book,CMSC,216,ISBN: 9780131103702
+8,C programming : a modern approach,book,CMSC,216,ISBN: 9780393979503
+9,Pointers on C,book,CMSC,216,ISBN: 9780673999863
+10,The C programming language,book,CMSC,216,ISBN: 9781842653951
+11,"C notes, a guide to the C programming language",book,CMSC,216,ISBN: 978-0917072130
+12,Materials for Math 246: Fall 2021 Ordinary Differential Equations,website,MATH,246,https://courses.math.umd.edu/math246/NODE/2021F/main.html
+13,MATH 246: Notes,website,MATH,246,https://www.math.umd.edu/~immortal/MATH246/
+14,Student study guide,book,MATH,240,ISBN: 9780321982575
+15,Basic Electric Circuit Theory,book,ENEE,205,ISBN: 9786613610997
+16,Guide to Verilog,book,ENEE,245,ISBN: 9780131415560
+17,"Compilers: Principles, Techinques, & Tools",Book,CMSC,430,ISBN: 9787111326748
+18,Pass Math 141,website,MATH,141,https://math141.blogspot.com/
+19,Computer Networks: A Systems Approach,Book,CMSC,417,ISBN: 9787111695424
+20,Data Structures and Algorithm Analysis in C++,Book,CMSC,351,ISBN: 9780486485829
+21,Data Structures and Algorithm Analysis in C,Book,CMSC,351,ISBN: 9787111640080
+22,Introduction to computing systems,Book,CMSC,216,ISBN: 9787111666318
+23,Computer-controlled Systems: Theory and Design,Book,CMSC,216,ISBN: 9780486486130
+24,Modern Control Systems,Book,ENEE,460,ISBN: 9787121460074
+25,"Operating Systems: Internals and Design Principles, Seventh Edition",Book,CMSC,412,ISBN: 9787121206764
+26,Modern Operationg Systems,Book,CMSC,412,ISBN: 9787111581659
+27,Computer Science Illuminated,Book,CMSC,100,ISBN: 9787111666745
+28,Computer Science for Cambridge IGCSE and O Level: Computer Science Programming Book for Python,Book,CMSC,131,ISBN: 9781108951562
+29,"Operating Systems: Internals and Design Principles, Nineth Edition",Book,CMSC,412,ISBN: 9787121390005
+30,Digital Logic Circuit Analysis and Design,Book,ENEE,244,ISBN: 9787121398704
+31,Discrete Mathematics and Its Applications,Book,CMSC,250,ISBN: 9787111645306
+32,"Handbook of Discrete and Combinatorial Mathematics, 2e",Book,CMSC,250,ISBN: 9787576706512
+33,Combinatorics,Book,CMSC,250,ISBN: 9787111748861
+34,Discrete Mathematics,Book,CMSC,250,ISBN: 9781264258802
+35,"Handbook of Discrete and Computational Geometry, 3e",Book,CMSC,250,ISBN: 9787576706529
+36,The Design of Approximation Algorithms,Book,CMSC,351,ISBN: 9780521195270
+37,"Fundamentals of Statistical Signal Processing, Volumne III: Practical Algorithm Development",Book,CMSC,451,ISBN: 9787121123948
+38,Digital Signal Processing: A Computer-Based Approach,Book,ENEE,425,ISBN: 9787121454660
+39,Mathematical Fundations of Reinforcement Learning,Book,CMSC,389L,ISBN: 9787302658528
+40,High-Performance Embedded Computing,Book,ENEE,408M,ISBN: 9787111204169
+41,"Java Software Solutions: Fundations of Program Design, Tenth Editon",Book,CMSC,131,ISBN: 9787121505966
+42,Introduction to JAVA Programming,Book,CMSC,131,ISBN: 9787111233671
+43,Introduction to JAVA Programming and Data Structures,Book,CMSC,132,ISBN: 9787111655176
+44,"Introduction to JAVA Programming and Data Structures, Comprehensive Version, Twelfth Edition",Book,CMSC,132,ISBN: 9787111767060
+45,Modern Compiler Implementation in C,Book,CMSC,430,ISBN: 9787115137715
+46,The Go Programming Language,Book,CMSC,398B,ISBN: 9787111526285
+47,"Python Crash Course, 3rd Edition",Book,DATA,120,ISBN: 9787115642363
+48,"Linear Algebra, Signal Processing, and Wavelets--A Unified Approach, Python Version",Book,ENEE,222,ISBN: 9783030029395
+49,"Fundamentals of Statistical Signal Processing, Volumne I: Estimation Theory",Book,ENEE,324,ISBN: 9787519283360
+50,MATLAB for Control Engineers,Book,ENEE,222,ISBN: 9787121373435
+51,Numerical Methods Using MATLAB,Book,ENEE,324,ISBN: 9787121314995
+52,Principles of Mathematical Analysis,Book,MATH,310,ISBN: 9787111619543
+53,Real Analysis : A Long-Form Mathematics Textbook,Book,MATH,310,ISBN: 9781077254541
+54,Mathematical Analysis,Book,MATH,310,ISBN: 9787111706106
+55,Electronic Devices and Circuit Theory,Book,ENEE,205,ISBN: 9787121452246
+56,"CMOS Analog Circuit Design, Third Editon",Book,ENEE,304,ISBN: 9787121452123
+57,Design of Analog CMOS Integrated Cirtuits,Book,ENEE,304,ISBN: 9787569309928
+58,"Electronical Engineering Principles and Applications, Seventh Edition",Book,ENEE,222,ISBN: 9787121362200
+59,"Electronical Engineering Principles and Applications, Fifth Edition",Book,ENEE,222,ISBN: 9787121181870
+60,Introductory Microcontroller Theory and Applications,Book,ENEE,440,ISBN: 9787563626366
+61,Fitzgerald & Kingsley's Electric Machinery,Book,ENEE,475,ISBN: 50132001
+62,"Optoelectronics and Photonics: Principle and Practices, Second Edition",Book,ENEE,484,ISBN: 9787121202933
+63,Electronic Commerce,Book,ENEE,304,ISBN: 9787111646716
+64,"Electric Circuits, Eleventh Edition, Global Edition",Book,ENEE,205,ISBN: 9787121464416
+65,Feedback Control of Dynamic Systems,Book,ENEE,322,ISBN: 9787121404061
+66,"Digital Fundamentals, Eleventh Edition",Book,ENEE,244,ISBN: 9787121319822
+67,"Digital Integrated Circuits: A Design Perspective, Second Edition",Book,ENEE,304,ISBN: 9787121305054
+68,Digital Design: Principles and Practices,Book,ENEE,245,ISBN: 9787111599418
+69,"RF Circuit Design: Theory and Applications, Second Editon",Book,ENEE,245,ISBN: 9787121399831
+70,"Signal and Power Integrity--Simplified, Third Edition",Book,ENEE,322,ISBN: 9787121407833
+71,"Cryptography and Network Security: Principles and Practice, Eighth Edition",Book,ENEE,459B,ISBN: 9787121389597
+72,Database System Concepts,Book,CMSC,424,ISBN: 9787111400868
+73,Digital Image Processing,Book,ENEE,408V,ISBN: 9787121305405
+74,"Principles of Optics: Electromagnetic Theory of Propagation, Interference and Diffractioin of Light",Book,ENEE,382,ISBN: 9787519285913
+75,Quantum Optics and Nanophotonics,Book,ENEE,382,ISBN: 0198768605

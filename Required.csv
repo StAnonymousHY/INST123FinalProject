@@ -1,0 +1,21 @@
+﻿id,text_name,subject (Eg. INST),course_code (Eg. 123),has_practice,ISBN/link,free (Eg. at the library or online for free)
+1,Practical SQL: A Beginner’s Guide to Storytelling with Data,INST,123,TRUE,ISBN: 9781593278274,TRUE
+2,"University Physics, by Young and Freedman (Pearson), 15 th edition",PHYS,161,TRUE,ISBN: 9780321973610,TRUE
+3,Calculus : w/ Concepts in Calculus,MATH,141,TRUE,ISBN: 9781133436751,TRUE
+4,Multivariable calculus with MATLAB® : with applications to geometry and physics,MATH,241,,ISBN: 9783319650692,TRUE
+5,CMSC420 Notes,CMSC,420,TRUE,https://www.cs.umd.edu/users/immortal/CMSC420/,TRUE
+6,CMSC351: Notes,CMSC,351,TRUE,https://www.math.umd.edu/~immortal/CMSC351/,TRUE
+7,CMSC330,CMSC,330,TRUE,https://bakalian.cs.umd.edu/cmsc330,TRUE
+8,Principles of chemistry : a molecular approach,CHEM,135,,ISBN: 9780321971944,TRUE
+9,ENEE459B: Computer Security and Reverse Engineering Lab,ENEE,459B,TRUE,https://yonghwi-kwon.github.io/class/enee459b/,TRUE
+10,Intel x64 Instruction Manual,ENEE,459B,FALSE,https://yonghwi-kwon.github.io/class/enee459b/data/intel_x64_manual.zip,TRUE
+11,Math 141 information and links,MATH,141,TRUE,https://www.math.umd.edu/~tjp/141%20information%20and%20links.htm,TRUE
+12,The Startup Analysis Canvas,ENES,461,FALSE,https://ventureartisans.teachable.com/p/startup-analysis-canvas-for-student-entrepreneurs-f2025,FALSE
+13,Computer systems : a programmer's perspective,CMSC,216,,ISBN: 9780134092669,TRUE
+14,Course Google Drive,MATH,246,TRUE,https://drive.google.com/drive/folders/1LJl6h7ZII6VcS8Eb_NWGpM6LG5CidJ3A,TRUE
+15,Linear algebra and its applications,MATH,461,TRUE,ISBN: 9780321982384,TRUE
+16,University physics,PHYS,260,TRUE,ISBN: 9780135275887,TRUE
+17,Probability and Statistics for Engineering and the Sciences,STAT,400,TRUE,ISBN: 9781305251809,TRUE
+18,The ethical engineer : contemporary concepts and cases,ENEE,200,,ISBN: 9781400889105,TRUE
+19,Chemistry : structure and properties,CHEM,135,,ISBN: 9781269885973,TRUE
+20,"Digital design : with an introduction to the verilog HDL, VHDL, and system Verilog",ENEE,244,TRUE,ISBN: 9780134549897,TRUE
