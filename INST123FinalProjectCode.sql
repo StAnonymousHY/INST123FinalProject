@@ -31,10 +31,6 @@ CREATE TABLE unofficial_raw (
     resource_link VARCHAR(500)
 );
 
-TRUNCATE TABLE course_raw;
-TRUNCATE TABLE required_raw;
-TRUNCATE TABLE unofficial_raw;
-
 COPY course_raw
 FROM 'C:\Program Files\PostgreSQL\17\data\CLASSCSV\Course.csv'
 WITH (FORMAT csv, HEADER true);
@@ -47,13 +43,6 @@ COPY unofficial_raw
 FROM 'C:\Program Files\PostgreSQL\17\data\CLASSCSV\Unofficial.csv'
 WITH (FORMAT csv, HEADER true);
 
-SELECT * FROM course_raw;
-SELECT * FROM required_raw;
-SELECT * FROM unofficial_raw;
-
-DROP TABLE course;
-DROP TABLE required;
-DROP TABLE unofficial;
 
 CREATE TABLE course (
 	id SERIAL PRIMARY KEY,
@@ -110,10 +99,3 @@ INSERT INTO unofficial
 SELECT id, resource_name, "resource_type" AS resource_type,
     "subject" AS subject, "course_code" AS course_code, resource_link
 FROM unofficial_raw;
-
-SELECT * FROM course;
-SELECT * FROM required;
-SELECT * FROM unofficial;
-
-SELECT * FROM course 
-WHERE subject='CMSC' AND course_code='351' AND professor LIKE '%Justin%';
