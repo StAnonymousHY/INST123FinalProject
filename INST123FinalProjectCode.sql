@@ -1,3 +1,4 @@
+-- setup
 DROP TABLE IF EXISTS course_raw;
 DROP TABLE IF EXISTS unofficial_raw;
 DROP TABLE IF EXISTS required_raw;
@@ -5,7 +6,7 @@ DROP TABLE IF EXISTS course;
 DROP TABLE IF EXISTS unofficial;
 DROP TABLE IF EXISTS required;
 
-REATE TABLE course_raw (
+CREATE TABLE course_raw (
     subject VARCHAR(10),
     course_code VARCHAR(10),
     course_name VARCHAR(200),
@@ -39,15 +40,15 @@ CREATE TABLE unofficial_raw (
 );
 
 COPY course_raw
-FROM 'C:\Program Files\PostgreSQL\17\data\CLASSCSV\Course.csv'
+FROM 'C:\Users\thou1\OneDrive - University of Maryland\Documents\assignments\INST123\Final\Course.csv'
 WITH (FORMAT csv, HEADER true);
 
 COPY required_raw
-FROM 'C:\Program Files\PostgreSQL\17\data\CLASSCSV\Required.csv'
+FROM 'C:\Users\thou1\OneDrive - University of Maryland\Documents\assignments\INST123\Final\Required.csv'
 WITH (FORMAT csv, HEADER true);
 
 COPY unofficial_raw
-FROM 'C:\Program Files\PostgreSQL\17\data\CLASSCSV\Unofficial.csv'
+FROM 'C:\Users\thou1\OneDrive - University of Maryland\Documents\assignments\INST123\Final\Unofficial.csv'
 WITH (FORMAT csv, HEADER true);
 
 
@@ -106,3 +107,51 @@ INSERT INTO unofficial
 SELECT id, resource_name, "resource_type" AS resource_type,
     "subject" AS subject, "course_code" AS course_code, resource_link
 FROM unofficial_raw;
+
+--show sample data
+TABLE course;
+TABLE required;
+TABLE unofficial;
+
+--dictionary operations
+--(Subject to modification)
+
+--sample scenarios
+-- Q: I am planning to take the course ENEE459B next semester and I heard that it is difficult. Do they have a required textbook that I can have a preview with at my own pace?
+-- A: 
+SELECT c.subject, c.course_code, c.course_name, c.professor,
+  r.id AS required_text_id, r.text_name, r.isbn_link, 
+  r.has_practice, r.is_free
+FROM course AS c
+JOIN required AS r
+  ON r.id = ANY (c.required_text_ids::int[])
+WHERE c.subject = 'ENEE' AND c.course_code = '459B';
+
+-- Q: Unfortunately, I do not have the best professor for the course MATH141 this semester. His homework problems are too easy and I do not learn anything from them. I am afraid that I am not prepared for the coming exam. Can I find some resources that contain practice problems that could help me?
+-- A:
+SELECT r.text_name, r.isbn_link
+FROM required AS r
+WHERE r.subject = 'MATH' AND r.course_code = '141' AND r.has_practice = true;
+
+-- Q: I am a student in the ECE department, and I am going to be a senior next semester. I know that I can take a lot of elective courses (to be more specific, I want to take ENEE4xx courses). Moreover, I would prefer a course with some lab exercises to build my research skills and/or projects on my resume. Can I see a list of such courses in my department?
+-- A:
+SELECT subject, course_code, course_name, professor, credits
+FROM course
+WHERE subject = 'ENEE' 
+  AND course_code LIKE '4%' 
+  AND is_lab = TRUE;
+
+-- Q: My favorite professor is Justin Wyss-Gallifent. How many courses have my favorite professor taught, and what are they?
+-- A: 
+SELECT DISTINCT ON (course_name) 
+	subject, course_code, course_name
+FROM course
+WHERE professor = 'Justin Wyss-Gallifent';
+
+-- Q: I have been debugging this piece of code about blockchain for 10 hours. Is there a Youtube video that explains the theory of how such a data structure works so that I can check if I have understood something correctly?
+-- A: 
+SELECT u.resource_name, u.resource_type, u.resource_link
+FROM unofficial AS u
+WHERE u.resource_name ILIKE '%blockchain%'
+  AND u.resource_link ILIKE '%youtube%'
+ORDER BY u.resource_name;
