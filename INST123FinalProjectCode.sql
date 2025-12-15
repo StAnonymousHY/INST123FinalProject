@@ -1,4 +1,11 @@
-CREATE TABLE course_raw (
+DROP TABLE IF EXISTS course_raw;
+DROP TABLE IF EXISTS unofficial_raw;
+DROP TABLE IF EXISTS required_raw;
+DROP TABLE IF EXISTS course;
+DROP TABLE IF EXISTS unofficial;
+DROP TABLE IF EXISTS required;
+
+REATE TABLE course_raw (
     subject VARCHAR(10),
     course_code VARCHAR(10),
     course_name VARCHAR(200),
