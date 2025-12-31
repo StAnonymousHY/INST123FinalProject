@@ -1,4 +1,4 @@
-﻿id,resource_name,"resource_type (Eg. student notes, YouTube)",subject (Eg. INST),course_code (Eg. 123),resource_link
+id,resource_name,"resource_type (Eg. student notes, YouTube)",subject (Eg. INST),course_code (Eg. 123),resource_link
 1,Index of /~drew/phy260/spr05,website,PHYS,260,Index of /~drew/phy260/spr05
 2,Integral Calculator • With Steps!,website,MATH,141,https://www.integral-calculator.com/
 3,Computer Architecture: A Quantitative Approach,book,ENEE,446,ISBN: 9780128119051
@@ -74,11 +74,11 @@
 73,Digital Image Processing,Book,ENEE,408V,ISBN: 9787121305405
 74,"Principles of Optics: Electromagnetic Theory of Propagation, Interference and Diffractioin of Light",Book,ENEE,382,ISBN: 9787519285913
 75,Quantum Optics and Nanophotonics,Book,ENEE,382,ISBN: 0198768605
-76,Thomas' CALCULUS,Book,,,ISBN: 9787040604931
-77,Calculus,Book,,,ISBN: 9787111275985
-78,"Advanced Calculus, Revised Edition",Book,,,ISBN:9789814583930
-79,Apostol Calculus,Book,,,ISBN: 9787519280871
-80,Precalculus: The Easy Way,Book,,,ISBN: 9781438012698
+76,Thomas' CALCULUS,Book,MATH,140,ISBN: 9787040604931
+77,Calculus,Book,MATH,140,ISBN: 9787111275985
+78,"Advanced Calculus, Revised Edition",Book,MATH,410,ISBN:9789814583930
+79,Apostol Calculus,Book,MATH,140,ISBN: 9787519280871
+80,Precalculus: The Easy Way,Book,MATH,115,ISBN: 9781438012698
 81,The Cartoon Introduction to Calculus,Book,,,ISBN: 0393351955
 82,Calculus of Several Variables,Book,,,ISBN: 9787510044076
 83,The Princeton Review: AP Calculus AB Premium Prep,Book,,,ISBN: 9780525570561
@@ -98,7 +98,7 @@
 97,Principles of Microeconomics,Book,,,ISBN: 9787302344025
 98,Foundations of Microeconomics,Book,,,ISBN: 9787300123455
 99,Microeconomic Theory,Book,,,ISBN: 9787301237939
-100,Microeconomic Theory: Basic Principles and Extensions,Book,,,ISBN: 9787301081273
+100,Microeconomic Theory: Basic Principles and Extensions,Book,,,ISBN:  9787301081273
 101,Microeconometrics: Methods and Applications,Book,,,ISBN: 9787111235767
 102,Advanced Microeconomic Theory: An Intuitive Approach with Examples,Book,,,ISBN: 9780262035446
 103,5 Steps to A: AP Physics 2: Algebra Based,Book,,,ISBN: 9781264268054
@@ -176,3 +176,4 @@
 175,Exam Success in Cambridge International AS & A Level: Economics,Book,ECON,201,ISBN: 9781382022996
 176,Handbook of Mellin Transforms,Book,MATH,246,ISBN: 9787576712865
 177,Blockchain In 7 Minutes,website,CMSC,420,https://www.youtube.com/watch?v=yubzJw0uiE4
+178,Derivative Calculator - With Steps!,website,MATH,140,https://www.derivative-calculator.net/
