@@ -1,4 +1,4 @@
-﻿id,text_name,subject (Eg. INST),course_code (Eg. 123),has_practice,ISBN/link,free (Eg. at the library or online for free)
+id,text_name,subject (Eg. INST),course_code (Eg. 123),has_practice,ISBN/link,free (Eg. at the library or online for free)
 1,Practical SQL: A Beginner’s Guide to Storytelling with Data,INST,123,TRUE,ISBN: 9781593278274,TRUE
 2,"University Physics, by Young and Freedman (Pearson), 15 th edition",PHYS,161,TRUE,ISBN: 9780321973610,TRUE
 3,Calculus : w/ Concepts in Calculus,MATH,141,TRUE,ISBN: 9781133436751,TRUE
@@ -19,3 +19,5 @@
 18,The ethical engineer : contemporary concepts and cases,ENEE,200,,ISBN: 9781400889105,TRUE
 19,Chemistry : structure and properties,CHEM,135,,ISBN: 9781269885973,TRUE
 20,"Digital design : with an introduction to the verilog HDL, VHDL, and system Verilog",ENEE,244,TRUE,ISBN: 9780134549897,TRUE
+21,CMSC133 (Fall 2023),CMSC,133,TRUE,https://www.cs.umd.edu/class/fall2023/cmsc133/,TRUE
+22,MATH 241 -- CALCULUS III,MATH,241,TRUE,https://math.umd.edu/~raw/courses/241/241.html,TRUE

@@ -1,4 +1,4 @@
-﻿subject,course_code,course_name,professor,grad_req,gen_ed,has_prereqs,prereqs,credits,is_lab,required_texts
+subject,course_code,course_name,professor,grad_req,gen_ed,has_prereqs,prereqs,credits,is_lab,required_texts
 INST,123,Intro to Databases,Vijay Arni,FALSE,DSSP,FALSE,,3,FALSE,[1]
 PHYS,260,"General Physics: Electricity, Magnetism and Thermodynamics",Drew Baden,TRUE,DSNL,TRUE,"PHYS161, MATH141",3,FALSE,[]
 PHYS,161,General Physics: Mechanics and Particle Dynamics,Dr. Hailu Gebremariam,TRUE,DSNL or DSNS,TRUE,MATH141*,3,FALSE,[2]
@@ -57,3 +57,6 @@ STAT,410,Introduction to Probability Theory,Takumi Saegusa,TRUE,NONE,TRUE,"MATH2
 STAT,430,Introduction to Statistical Computing with SAS,Hatice Sahinoglu,TRUE,NONE,TRUE,"STAT400/STAT410, STAT401/STAT420",3,FALSE,[]
 STAT,440,Sampling Theory,Eric Slud,TRUE,NONE,TRUE,STAT401/STAT420,3,FALSE,[]
 STAT,410,Introduction to Probability Theory,Archana Khurana,TRUE,NONE,TRUE,"MATH240/MATH461/MATH241, MATH340/MATH241",3,FALSE,[]
+CMSC,133,Object Oriented Programming I Beyond Fundamentals,Nelson Padua-Perez,FALSE,NONE,TRUE,Placement Exam,2,FALSE,[21]
+MATH,241,Calculus III,Professor Richard A. Wentworth,TRUE,NONE,TRUE,MATH141,4,FALSE,[22]
+CMSC,388A,Special Topics in Computer Science; Introduction to Web Application Front End Development,Adam Elaoud,FALSE,NONE,TRUE,CMSC330,1,FALSE,[]

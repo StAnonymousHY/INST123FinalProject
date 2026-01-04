@@ -79,15 +79,15 @@ id,resource_name,"resource_type (Eg. student notes, YouTube)",subject (Eg. INST)
 78,"Advanced Calculus, Revised Edition",Book,MATH,410,ISBN:9789814583930
 79,Apostol Calculus,Book,MATH,140,ISBN: 9787519280871
 80,Precalculus: The Easy Way,Book,MATH,115,ISBN: 9781438012698
-81,The Cartoon Introduction to Calculus,Book,,,ISBN: 0393351955
-82,Calculus of Several Variables,Book,,,ISBN: 9787510044076
-83,The Princeton Review: AP Calculus AB Premium Prep,Book,,,ISBN: 9780525570561
-84,Linear Algebra with Applications,Book,,,ISBN: 9787111717294
-85,Introduction to Linear Algebra,Book,,,ISBN: 9787111106289
-86,Finite-Dimensional Vector Spaces,Book,,,ISBN: 9780486814865
-87,Applied Partial Differential Equations,Book,,,ISBN: 9787111648611
-88,Partial Differential Equations,Book,,,ISBN: 9787040469356
-89,An Introduction to Ordinary Differential Equations,Book,,,ISBN: 9780521533911
+81,The Cartoon Introduction to Calculus,Book,MATH,140,ISBN: 0393351955
+82,Calculus of Several Variables,Book,MATH,241,ISBN: 9787510044076
+83,The Princeton Review: AP Calculus AB Premium Prep,Book,MATH,140,ISBN: 9780525570561
+84,Linear Algebra with Applications,Book,MATH,240,ISBN: 9787111717294
+85,Introduction to Linear Algebra,Book,MATH,240,ISBN: 9787111106289
+86,Finite-Dimensional Vector Spaces,Book,MATH,241,ISBN: 9780486814865
+87,Applied Partial Differential Equations,Book,MATH,246,ISBN: 9787111648611
+88,Partial Differential Equations,Book,MATH,246,ISBN: 9787040469356
+89,An Introduction to Ordinary Differential Equations,Book,MATH,246,ISBN: 9780521533911
 90,Partial Differential Equations in Engineering Problems,Book,,,ISBN: 9780486843292
 91,Principles of Macroeconomics,Book,,,ISBN: 9787040327281
 92,Foundations of Macroeconomics,Book,,,ISBN: 9787300225432
@@ -175,5 +175,6 @@ id,resource_name,"resource_type (Eg. student notes, YouTube)",subject (Eg. INST)
 174,Psychology for Cambridge International AS A Level,Book,PSYC,100,ISBN: 9781009152488
 175,Exam Success in Cambridge International AS & A Level: Economics,Book,ECON,201,ISBN: 9781382022996
 176,Handbook of Mellin Transforms,Book,MATH,246,ISBN: 9787576712865
-177,Blockchain In 7 Minutes,website,CMSC,420,https://www.youtube.com/watch?v=yubzJw0uiE4
+177,Blockchain In 7 Minutes,video,CMSC,420,https://www.youtube.com/watch?v=yubzJw0uiE4
 178,Derivative Calculator - With Steps!,website,MATH,140,https://www.derivative-calculator.net/
+179,Git & VS Code Mini Lecture,video,CMSC,388A,https://www.youtube.com/watch?v=_mdTPr0lM5k
